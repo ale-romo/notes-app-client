@@ -7,7 +7,7 @@ import { LinkContainer } from "react-router-bootstrap";
 import { Auth } from "aws-amplify";
 
 class App extends Component {
-  
+
   constructor(props) {
     super(props);
 
@@ -17,7 +17,7 @@ class App extends Component {
     };
 
   }
-  
+
   async componentDidMount() {
   try {
     if (await Auth.currentSession()) {
@@ -42,7 +42,7 @@ class App extends Component {
     this.userHasAuthenticated(false);
     this.props.history.push("/login");
   }
-  
+
   render() {
     const childProps = {
       isAuthenticated: this.state.isAuthenticated,
@@ -55,7 +55,7 @@ class App extends Component {
         <Navbar fluid collapseOnSelect>
           <Navbar.Header>
             <Navbar.Brand>
-              <Link to="/">Scratch</Link>
+              <Link to="/">Alejandroi.de</Link>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>

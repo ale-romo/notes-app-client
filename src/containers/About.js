@@ -39,7 +39,7 @@ export default class About extends Component {
     return (
       <div className="About ">
         <p>
-          This is the about page now
+          Hey Pedro, homework completed
         </p>
       </div>
     );
