@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-import { PageHeader, ListGroup, ListGroupItem } from "react-bootstrap";
 import "./About.css";
 import { API } from "aws-amplify";
-import { Link } from "react-router-dom";
 
 export default class About extends Component {
   constructor(props) {

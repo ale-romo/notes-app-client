@@ -19,6 +19,7 @@
   line-height: 1.5;
   white-space: nowrap;
   text-overflow: ellipsis;
+  color: black;
 }
 .Home .notes p {
   color: #666;
